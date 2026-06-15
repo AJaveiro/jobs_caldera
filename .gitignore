@@ -5,3 +5,4 @@ __pycache__/
 *.npy
 *.pyc
 .DS_Store
+challenge_files/
