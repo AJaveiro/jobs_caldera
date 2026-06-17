@@ -202,8 +202,8 @@ def main():
     candidates = []
     with open(DATA_PATH, "r", encoding="utf-8") as f:
         for i, line in enumerate(f):
-            if i >= 50:   # load first 50 (the sample set)
-                break
+            '''if i >= 50:   # load first 50 (the sample set)
+                break'''
             candidates.append(json.loads(line))
 
     print(f"  Loaded {len(candidates)} candidates from {DATA_PATH}")
